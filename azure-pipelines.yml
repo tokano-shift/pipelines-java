@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: macOS-14
+  vmImage: windows-latest
 
 steps:
 - task: Maven@4
